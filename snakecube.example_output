@@ -1,0 +1,33 @@
+$ time python snakecube.py
+>> start backtracking with empty cube and head BacktrackHead(Vector3D(0, 0, 0), Vector3D(1, 0, 0))
+==== solutions ====
+solution 0 (as base points): [[0, 0, 0], [2, 0, 0], [2, 1, 0], [1, 1, 0], [1, 1, 2], [1, 2, 2], [1, 2, 0], [2, 2, 0], [2, 2, 1], [2, 0, 1], [0, 0, 1], [0, 1, 1], [0, 1, 0], [0, 2, 0], [0, 2, 2], [0, 0, 2], [2, 0, 2]]
+solution 1 (as base points): [[0, 0, 0], [2, 0, 0], [2, 0, 1], [1, 0, 1], [1, 2, 1], [1, 2, 2], [1, 0, 2], [2, 0, 2], [2, 1, 2], [2, 1, 0], [0, 1, 0], [0, 1, 1], [0, 0, 1], [0, 0, 2], [0, 2, 2], [0, 2, 0], [2, 2, 0]]
+
+>> start backtracking with empty cube and head BacktrackHead(Vector3D(1, 0, 0), Vector3D(1, 0, 0))
+==== solutions ====
+no solutions
+
+>> start backtracking with empty cube and head BacktrackHead(Vector3D(1, 0, 0), Vector3D(0, 1, 0))
+==== solutions ====
+no solutions
+
+>> start backtracking with empty cube and head BacktrackHead(Vector3D(1, 1, 0), Vector3D(1, 0, 0))
+==== solutions ====
+no solutions
+
+>> start backtracking with empty cube and head BacktrackHead(Vector3D(1, 1, 0), Vector3D(0, 0, 1))
+==== solutions ====
+no solutions
+
+>> start backtracking with empty cube and head BacktrackHead(Vector3D(1, 1, 1), Vector3D(1, 0, 0))
+==== solutions ====
+no solutions
+
+The two solutions are similar! Just mirror one solution at the yz-plane, rotate 90 degree about the x axis and 180 degree about the z axis, and you got the other solution.
+
+real	0m0.342s
+user	0m0.327s
+sys	0m0.008s
+
+
