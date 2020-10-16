@@ -10,9 +10,9 @@ I started this project to get familiar with Python. Since it is my first Python 
 
 A snake cube is a 3D wooden puzzle. Some pictures:
 
-- ![Assembled snake cube](./images/snakecube0.jpg)
-- ![Partly assembled snake cube](./images/snakecube1.jpg)
-- ![Unassembled snake cube](./images/snakecube2.jpg)
+- [Assembled snake cube](./images/snakecube0.jpg)
+- [Partly assembled snake cube](./images/snakecube1.jpg)
+- [Unassembled snake cube](./images/snakecube2.jpg)
 
 The example snake cube used in this program can be found here: <https://knobelholz.de/index.php/de/knobelshop/holz-puzzle-3d-de/snake-cube-braun-medium-holzpuzzle-detail>
 
